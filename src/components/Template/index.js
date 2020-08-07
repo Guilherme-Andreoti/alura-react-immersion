@@ -17,13 +17,13 @@ const Main = styled.main`
 
 function PageTemplate({children}){
     return(
-        <div>
+        <>
             <Menu/>
                 <Main>
                     {children}
                 </Main>
             <Footer/>
-        </div>
+        </>
     )
 }
 
