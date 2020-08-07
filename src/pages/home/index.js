@@ -1,9 +1,8 @@
 import React from 'react';
 import './index.css';
-import Menu from '../../components/Menu'
 import BannerMain from '../../components/BannerMain'
 import Carousel from '../../components/Carousel'
-import Footer from '../../components/Footer'
+import Template from '../../components/Template'
 import sampleData from '../../assets/data/dados_iniciais.json' 
 
 
@@ -11,7 +10,7 @@ import sampleData from '../../assets/data/dados_iniciais.json'
 function Home() {
   return (
     <div>
-    <Menu/>
+    <Template>
 
       <BannerMain
         videoTitle={sampleData.categorias[0].videos[0].titulo}
@@ -34,7 +33,7 @@ function Home() {
         category={sampleData.categorias[2]}
       />
 
-     <Footer/>
+     </Template>
     </div>
 
    
