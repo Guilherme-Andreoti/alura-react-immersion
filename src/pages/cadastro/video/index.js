@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import PageDefault from '../../../components/Template';
+import Template from '../../../components/Template';
 
 function CadastroVideo(){
     return (
         <div>
-          <PageDefault/>
-      
+          <Template/>
+            teste
           
-          <PageDefault/>
+          <Template/>
         </div>
     );
 }
