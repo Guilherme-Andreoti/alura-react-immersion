@@ -7,8 +7,8 @@ function CadastroCategoria(){
         <>
           <Template>
             <h1>Cadastro de Categoria</h1>
-          <Link to="/cadastro/video/">
-              Cadastrar de Vídeo
+          <Link to="/">
+              Ir para Home
           </Link>
 
           </Template>
@@ -16,4 +16,4 @@ function CadastroCategoria(){
     );
 }
 
-export default CadastroVideo; 
+export default CadastroCategoria; 
