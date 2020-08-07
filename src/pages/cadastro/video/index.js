@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from '../../../components/Menu';
-import Footer from '../../../components/Footer';
+import PageDefault from '../../../components/Template';
 
 function CadastroVideo(){
     return (
         <div>
-        <Menu/>
-    
-         
-         <Footer/>
+          <PageDefault/>
+      
+          
+          <PageDefault/>
         </div>
-
-      );
+    );
 }
 
 export default CadastroVideo; 
