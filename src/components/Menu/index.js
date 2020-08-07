@@ -10,7 +10,7 @@ function Menu(){
                 <img className='Logo' src={Logo} alt = 'Logo'></img>
             </a>
             {/* it makes the button act like a "a" tag */}
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as="a" className="ButtonLink" href="/cadastro/video">
                 Novo Video
             </Button>
         </nav>
